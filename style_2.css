@@ -1,0 +1,65 @@
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #222;
+    color: white;
+}
+
+header .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+header p {
+    font-size: 2rem;
+    margin: 0;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    font-size:18px;
+    padding: 0.5rem;
+    position: relative;
+}
+.link::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+body{
+    background-color: rgb(29, 28, 28);
+}
+.link:hover::before{
+    transform: scaleX(1);
+}
+button{
+    float: right;
+    size: 50px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(0, 255, 60);
+    size: 10px;
+}

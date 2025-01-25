@@ -1,0 +1,68 @@
+body{
+    background:linear-gradient(to top left,rgb(46, 49, 46) 30%, rgb(213, 206, 212) 40%) fixed;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+ul li{
+    list-style: none;
+    font-size: large;
+    margin-left:50px ;
+    margin-right: 50px;
+    line-height: 1.3em;
+    word-spacing: 0.1em;
+
+}
+footer{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:18px;
+    padding: 0.5rem;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer h1{
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    color: rgb(202, 31, 74);
+
+}
+footer h2 {
+    color: rgb(44, 5, 239);
+}
+.np{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.next{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(46, 49, 46);
+}
+.next:hover{
+    background-color: rgb(46, 49, 46);
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+button{
+    border-radius: 10%;
+}
+.prev{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.prev:hover{
+    background-color: rgb(46, 49, 46);
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
